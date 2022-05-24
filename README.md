@@ -15,6 +15,8 @@ To do this, you will need to add a constructor, a private instance variable, and
 After making these changes, what improvements do you see? On your own, can you think of other improvements? 
 (Hint: Try using ordinal values to switch light colors rather than relying on a switch statement.)
 
+*Note: 
 
+Synchronized methods are outdated (legacy code) and should not be implmented as part of new code due to their blocking nature and resulting issues. For a more modern approach, asynchronous methods should be used instead (i.e. the Executor framework). 
 
 
